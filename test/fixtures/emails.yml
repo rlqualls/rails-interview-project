@@ -2,10 +2,10 @@
 
 one:
   id: 1
-  address: MyString
+  address: user1@example.com
   user_id: 1
 
 two:
   id: 2
-  address: MyString
+  address: user2@example.com
   user_id: 2
