@@ -1,7 +1,8 @@
 require 'test_helper'
 
 class GroupTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+  test "init" do
+    @group = Group.create
+    assert true
+  end
 end

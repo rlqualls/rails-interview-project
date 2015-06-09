@@ -1,7 +1,8 @@
 require 'test_helper'
 
 class EmailTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+  test "init" do
+    @email = Email.create
+    assert true
+  end
 end
